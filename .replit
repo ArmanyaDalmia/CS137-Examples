@@ -1,2 +1,2 @@
-language = "bash"
-run = "echo hello word"
+language = "c"
+run = "cd build && cmake ../ && cmake --build . && ./2048"
